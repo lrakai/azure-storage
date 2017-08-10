@@ -128,7 +128,7 @@
                         "autoUpgradeMinorVersion": true,
                         "settings": {
                             "fileUris": [
-                                "https://raw.githubusercontent.com/lrakai/azure-storage/master/post-deploy/provision.ps1"
+                                "https://raw.githubusercontent.com/lrakai/azure-storage/master/post-deploy/bootstrap.ps1"
                             ]
                         },
                         "protectedSettings": {
