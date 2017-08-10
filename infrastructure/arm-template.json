@@ -132,7 +132,7 @@
                             ]
                         },
                         "protectedSettings": {
-                            "commandToExecute": "[concat('powershell -ExecutionPolicy Unrestricted -File provision.ps1 -user ',parameters('adminUsername'),' -password ',parameters('adminPassword'))]"
+                            "commandToExecute": "[concat('powershell -ExecutionPolicy Unrestricted -File bootstrap.ps1 -user ',parameters('adminUsername'),' -password ',parameters('adminPassword'))]"
                         }
                     }
                 }
