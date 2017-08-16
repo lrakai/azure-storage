@@ -1,4 +1,5 @@
 $Region = "WestUS2"
 Login-AzureRmAccount
-New-AzureRmResourceGroup -Name ca-labs -Location $Region
-New-AzureRmResourceGroupDeployment -ResourceGroupName ca-labs -Name lab -TemplateFile .\infrastructure\arm-template.json
+New-AzureRmResourceGroup -Name azure-storage-lab -Location $Region
+New-AzureRmResourceGroupDeployment -ResourceGroupName azure-storage-lab -Name storage-lab -TemplateFile .\infrastructure\arm-template.json
+Get-AzureRmPublicIpAddress -Name lab-vm-ip -ResourceGroupName azure-storage-lab | Select -ExpandProperty IpAddress
