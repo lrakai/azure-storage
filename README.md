@@ -4,7 +4,7 @@ Working with Azure Storage using Azure PowerShell, and ARM templates
 ## Getting Started
 An Azure RM template is included in `infrastructure/` to create a virtual machine to follow along.
 
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Flrakai%2Fazure-storages%2Fmaster%2Finfrastructure%2Farm-template.json">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Flrakai%2Fazure-storage%2Fmaster%2Finfrastructure%2Farm-template.json">
     <img src="https://camo.githubusercontent.com/536ab4f9bc823c2e0ce72fb610aafda57d8c6c12/687474703a2f2f61726d76697a2e696f2f76697375616c697a65627574746f6e2e706e67" data-canonical-src="http://armviz.io/visualizebutton.png" style="max-width:100%;">
 </a> 
 
