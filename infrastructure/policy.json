@@ -100,7 +100,8 @@
         },
         "allowedVmSkus": {
             "value": [
-                "Standard_A2_v2"
+                "Standard_A2_v2",
+                "Standard_B2ms"
             ]
         },
         "allowedVmExtensionTypes": {
